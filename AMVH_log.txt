@@ -1,0 +1,42 @@
+AMVH on ESP_GAME:
+iter=1, obj=11.189039
+iter=2, obj=10.750213
+iter=3, obj=10.543014
+iter=4, obj=10.380409
+iter=5, obj=10.274764
+iter=6, obj=10.220622
+iter=7, obj=10.177806
+iter=8, obj=10.151497
+iter=9, obj=10.135144
+iter=10, obj=10.128349
+iter=11, obj=10.125363
+iter=12, obj=10.124458
+iter=13, obj=10.118275
+iter=14, obj=10.109320
+iter=15, obj=10.107151
+500...1000...
+500...1000...
+AMVH on ESP_GAME:
+iter=1, obj=9.999016
+iter=2, obj=9.527105
+iter=3, obj=9.329441
+iter=4, obj=9.240309
+iter=5, obj=9.207674
+iter=6, obj=9.192161
+iter=7, obj=9.183591
+iter=8, obj=9.180493
+iter=9, obj=9.175611
+iter=10, obj=9.171532
+iter=11, obj=9.168619
+iter=12, obj=9.166528
+iter=13, obj=9.164444
+iter=14, obj=9.163149
+iter=15, obj=9.161465
+500...1000...
+500...1000...
+
+maps =
+
+    0.4362    0.4906
+    0.4953    0.5190
+
