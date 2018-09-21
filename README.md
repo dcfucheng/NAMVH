@@ -64,9 +64,10 @@ matlab -r -nodesktop run_NAMVH
     0.4822    0.5045
     0.5208    0.5599
 
-	> noted: maps = <br>
-	        AMVH_bin  AMVH_real
-					  AMVH_mul
+> noted: maps = <br>
+         AMVH_bin  AMVH_real
+                   AMVH_mul
+
 # Datasets
 We provide ESP-GAME dataset [./data](https://github.com/dcfucheng/NAMVH/tree/master/data) to test our codes.
 
