@@ -16,7 +16,9 @@ Meanwhile, this repository also provides the implementation of *AMVH* as describ
 
 Linux 16.04.5
 NVIDIA GPU + CUDA-8.0 and corresponding CuDNN
+
 Caffe
+
 Matlab 2015b
 
 # Installation Guide
@@ -35,11 +37,11 @@ make matcaffe
 ```
 
 # Usage 
-run AMVH for AMVH: Asymmetric Multi-Valued Hashing
+run AMVH for AMVH: Asymmetric Multi-Valued Hashing on ESP-GAME
 
 ```
 cd NAMVH
-matlab -r -nodesktop run_AMVH
+matlab -r -nodesktop run_AMVH on ESP-GAME with 8-bit codes.
 ```
 
 #### results
@@ -49,11 +51,11 @@ matlab -r -nodesktop run_AMVH
     0.4953    0.5190
 
 
-run NAMVH for Nonlinear Asymmetric Multi-Valued Hashing
+run NAMVH for Nonlinear Asymmetric Multi-Valued Hashing on ESP-GAME with 8-bit codes.
 
 ```
 cd NAMVH
-matlab -r -nodesktop run_AMVH
+matlab -r -nodesktop run_NAMVH
 ```
 
 #### results
@@ -62,25 +64,26 @@ matlab -r -nodesktop run_AMVH
     0.4822    0.5045
     0.5208    0.5599
 
-
+	> noted: maps = <br>
+	        AMVH_bin  AMVH_real
+					  AMVH_mul
 # Datasets
 We provide ESP-GAME dataset [./data](https://github.com/dcfucheng/NAMVH/tree/master/data) to test our codes.
 
 ### Citing
-If you find *NAMVH* and *AMVH* useful in your research, we ask that you cite the following paper:
+If you find *NAMVH* and *AMVH* useful in your research, please consider citing the following paper:
 
 	@ARTICLE{8451950, 
 	author={C. Da and G. Meng and S. Xiang and K. Ding and S. Xu and Q. Yang and C. Pan}, 
 	journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
 	title={Nonlinear Asymmetric Multi-Valued Hashing}, 
 	year={2018}, 
-	volume={}, 
-	number={}, 
+	volume={PP}, 
+	number={1}, 
 	pages={1-1}, 
-	keywords={Databases;Binary codes;Optimization;Neural networks;Encoding;Hamming distance;Semantics;Asymmetric hashing;multi-valued embeddings;binary sparse representation;nonlinear transformation}, 
 	doi={10.1109/TPAMI.2018.2867866}, 
 	ISSN={0162-8828}, 
-	month={},}
+	}
 	
 	@inproceedings{DBLP:conf/cvpr/DaXDMXP17,
 	author    = {Cheng Da and
@@ -90,16 +93,11 @@ If you find *NAMVH* and *AMVH* useful in your research, we ask that you cite the
                Shiming Xiang and
                Chunhong Pan},
 	title     = {{AMVH:} Asymmetric Multi-Valued hashing},
-	booktitle = {2017 {IEEE} Conference on Computer Vision and Pattern Recognition,
-               {CVPR} 2017, Honolulu, HI, USA, July 21-26, 2017},
+	booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition,{CVPR}},
 	pages     = {898--906},
 	year      = {2017},
-	crossref  = {DBLP:conf/cvpr/2017},
 	url       = {https://doi.org/10.1109/CVPR.2017.102},
 	doi       = {10.1109/CVPR.2017.102},
-	timestamp = {Tue, 14 Nov 2017 17:15:06 +0100},
-	biburl    = {https://dblp.org/rec/bib/conf/cvpr/DaXDMXP17},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
 	}
 	
 	
