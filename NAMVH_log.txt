@@ -1,11 +1,4 @@
 NAMVH_DNN on ESP_GAME:
-{Undefined function or variable 'NAMVH'.
-
-Error in run_NAMVH (line 55)
-model = NAMVH(data.Xretri, data.Yretri, opts, gpu_id);
-} 
-run_NAMVH
-NAMVH_DNN on ESP_GAME:
 Warning: replacing existing file ./data//ESP_GAME_train_DNN_8.h5 
 HDF5 ESP_GAME_train_DNN_8.h5 
 Group '/' 
