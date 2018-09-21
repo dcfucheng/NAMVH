@@ -50,7 +50,11 @@ matlab -r -nodesktop run_AMVH on ESP-GAME with 8-bit codes.
     0.4362    0.4906
     0.4953    0.5190
     
+<<<<<<< HEAD
 > noted: maps(1,1) = AMVH_bin;  maps(1,2) = AMVH_real; maps(2,2) = AMVH_mul;
+=======
+> noted: maps(1,1) = AMVH_bin  maps(1,2) = AMVH_real maps(2,2) = AMVH_mul
+>>>>>>> b727fd9db3cda55baf01171adb2177be284290fc
 
 run NAMVH for Nonlinear Asymmetric Multi-Valued Hashing on ESP-GAME with 8-bit codes.
 
@@ -65,7 +69,11 @@ matlab -r -nodesktop run_NAMVH
     0.4822    0.5045
     0.5208    0.5599
 
+<<<<<<< HEAD
 > noted: maps(1,1) = NAMVH_1^b;  maps(1,2) = NAMVH_1^r; maps(2,2) = NAMVH_{10}^r;
+=======
+> noted: maps(1,1) = NAMVH_1^b  maps(1,2) = NAMVH_1^r maps(2,2) = NAMVH_{10}^r
+>>>>>>> b727fd9db3cda55baf01171adb2177be284290fc
 
 # Datasets
 We provide ESP-GAME dataset [./data](https://github.com/dcfucheng/NAMVH/tree/master/data) to test our codes.
