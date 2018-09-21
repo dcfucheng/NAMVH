@@ -1,12 +1,12 @@
 # NAMVH
-This repository provides the implementation of [NAMVH] (https://ieeexplore.ieee.org/document/8451950/) as described in the papers:
+This repository provides the implementation of [NAMVH](https://ieeexplore.ieee.org/document/8451950/) as described in the papers:
 
 > Nonlinear Asymmetric Multi-Valued Hashing<br>
 > Cheng Da, Gaofeng Meng, Shiming Xiang, Kun Ding, Shibiao Xu, Qing Yang, and Chunhong Pan<br>
 > TPAMI, 2018.<br>
 
 
-Meanwhile, this repository also provides the implementation of [AMVH] (http://openaccess.thecvf.com/content_cvpr_2017/papers/Da_AMVH_Asymmetric_Multi-Valued_CVPR_2017_paper.pdf) as described in the papers:
+Meanwhile, this repository also provides the implementation of [AMVH](http://openaccess.thecvf.com/content_cvpr_2017/papers/Da_AMVH_Asymmetric_Multi-Valued_CVPR_2017_paper.pdf) as described in the papers:
 
 > AMVH: Asymmetric Multi-Valued Hashing<br>
 > Cheng Da, Shibiao Xu, Kun Ding, Gaofeng Meng, Shiming Xiang, Chunhong Pan<br>
