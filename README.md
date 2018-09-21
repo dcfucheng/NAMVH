@@ -64,7 +64,7 @@ matlab -r -nodesktop run_AMVH
 
 
 # Datasets
-We provide ESP-GAME dataset to test our codes. [./data](https://github.com/dcfucheng/NAMVH/tree/master/data),
+We provide ESP-GAME dataset [./data](https://github.com/dcfucheng/NAMVH/tree/master/data) to test our codes.
 
 ### Citing
 If you find *NAMVH* and *AMVH* useful in your research, we ask that you cite the following paper:
@@ -83,24 +83,24 @@ If you find *NAMVH* and *AMVH* useful in your research, we ask that you cite the
 	month={},}
 	
 	@inproceedings{DBLP:conf/cvpr/DaXDMXP17,
-  author    = {Cheng Da and
+	author    = {Cheng Da and
                Shibiao Xu and
                Kun Ding and
                Gaofeng Meng and
                Shiming Xiang and
                Chunhong Pan},
-  title     = {{AMVH:} Asymmetric Multi-Valued hashing},
-  booktitle = {2017 {IEEE} Conference on Computer Vision and Pattern Recognition,
+	title     = {{AMVH:} Asymmetric Multi-Valued hashing},
+	booktitle = {2017 {IEEE} Conference on Computer Vision and Pattern Recognition,
                {CVPR} 2017, Honolulu, HI, USA, July 21-26, 2017},
-  pages     = {898--906},
-  year      = {2017},
-  crossref  = {DBLP:conf/cvpr/2017},
-  url       = {https://doi.org/10.1109/CVPR.2017.102},
-  doi       = {10.1109/CVPR.2017.102},
-  timestamp = {Tue, 14 Nov 2017 17:15:06 +0100},
-  biburl    = {https://dblp.org/rec/bib/conf/cvpr/DaXDMXP17},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+	pages     = {898--906},
+	year      = {2017},
+	crossref  = {DBLP:conf/cvpr/2017},
+	url       = {https://doi.org/10.1109/CVPR.2017.102},
+	doi       = {10.1109/CVPR.2017.102},
+	timestamp = {Tue, 14 Nov 2017 17:15:06 +0100},
+	biburl    = {https://dblp.org/rec/bib/conf/cvpr/DaXDMXP17},
+	bibsource = {dblp computer science bibliography, https://dblp.org}
+	}
 	
 	
 	
